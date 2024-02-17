@@ -23,7 +23,8 @@ public struct TwoViewsToggleStyle: ToggleStyle {
             configuration.label
         }
     }
-#warning("FIXME") // FIXME: - AnyView can not except Views created on the callers side
+	
+	// FIXME: - AnyView can not except Views created on the callers side
     
     public init(viewOn:AnyView, colorOn:Color? = nil, viewOff:AnyView, colorOff:Color? = nil){
         self.viewOn = viewOn
