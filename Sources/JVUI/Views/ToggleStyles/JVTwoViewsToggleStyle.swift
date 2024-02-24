@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 public struct TwoViewsToggleStyle: ToggleStyle {
     
     let viewOn:AnyView
